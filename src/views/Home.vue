@@ -1,18 +1,26 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header></Header>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
+import Header from '../components/Header/Header'
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
+  data () {
+    return {
+
+    }
+  },
+  created () {
+    console.log(this.$route.path)
+  },
   components: {
-    HelloWorld
+    Header
   }
 }
 </script>
