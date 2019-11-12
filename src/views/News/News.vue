@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     async getNews () {
-      let { data: res } = await this.$axios.get('/api/news.json')
+      let { data: res } = await this.$axios.get('/mock/news.json')
       console.log(res)
       this.newsList = res.data.news
     }
