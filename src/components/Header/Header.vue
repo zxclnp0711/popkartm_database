@@ -113,4 +113,9 @@ export default {
   padding: 10px 16px;
   border-bottom: 1px solid #eee;
 }
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 </style>
