@@ -67,6 +67,11 @@
         </div>
       </div>
     </div>
+    <van-loading size="40px"
+                 v-show="isLoading"
+                 vertical
+                 class="loading"
+                 color="#fff"></van-loading>
   </div>
 </template>
 
@@ -75,6 +80,7 @@ export default {
   name: '',
   data () {
     return {
+      isLoading: false,
       activeNames: ['1'],
       typeList: [],
       starsList: [],
@@ -96,6 +102,7 @@ export default {
   },
   methods: {
     async getMaps () {
+      this.isLoading = true
       let { data: res } = await this.$axios.get('/mock/maps.json')
       console.log(res)
       this.typeList = res.data.type
@@ -103,6 +110,7 @@ export default {
       this.levelList = res.data.level
       this.mapList = res.data.maps
       this.oldMapList = this.mapList
+      this.isLoading = false
     },
     handleTypeDisable (e) {
       if (e.target.dataset.index === '0') {
@@ -132,6 +140,7 @@ export default {
       this.filterMap(this.selectParmas)
     },
     filterMap (obj) {
+      this.isLoading = true
       if (obj.type || obj.stars || obj.level) {
         let arr = this.oldMapList
         if (obj.type) {
@@ -152,8 +161,10 @@ export default {
           })
           arr = this.mapList
         }
+        this.isLoading = false
       } else {
         this.mapList = this.oldMapList
+        this.isLoading = false
       }
     }
   }
@@ -161,6 +172,19 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.loading {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.3);
+  span {
+    margin-top: 200px;
+    z-index: 9999999;
+    color: #fff;
+  }
+}
 .van-row /deep/ .van-col {
   margin-bottom: 5px;
 }
