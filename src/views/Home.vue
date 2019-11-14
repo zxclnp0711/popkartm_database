@@ -1,7 +1,7 @@
 <template>
   <div class="home"
        style="margin-top: 46px;">
-    <Header></Header>
+    <Header style="z-index:999999;"></Header>
     <router-view></router-view>
   </div>
 </template>

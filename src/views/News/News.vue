@@ -20,15 +20,15 @@
                class="ellipsis">{{item.abstract}}</div>
         </a>
       </div>
-    </div>
-    <div class="loading">
-      <van-button type="info"
-                  plain
-                  hairline
-                  :loading="loading"
-                  size="normal"
-                  loading-text="加载中..."
-                  @click="handleLoading">加载更多...</van-button>
+      <div class="loading">
+        <van-button type="info"
+                    plain
+                    hairline
+                    :loading="loading"
+                    size="normal"
+                    loading-text="加载中..."
+                    @click="handleLoading">加载更多...</van-button>
+      </div>
     </div>
   </div>
 </template>

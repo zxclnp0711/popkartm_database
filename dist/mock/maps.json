@@ -1,0 +1,38 @@
+{
+  "data": {
+    "type": ["全部", "冰河", "沙漠", "森林", "城镇", "墓地", "矿山", "太空", "工厂", "黄金", "华夏", "海盗", "童话", "城堡", "精灵", "刀剑"],
+    "stars": ["全部", "1", "2", "3", "4", "5"],
+    "level": ["全部", "L3", "L2", "L1"],
+    "maps": [{
+      "name": "冰雪企鹅岛",
+      "imgUrl": "https://shp.qpic.cn/cfwebcap/0/3e1380b6987bceb7167eeba377a34d08/",
+      "stars": 1,
+      "level": "L3",
+      "type": "冰河"
+    }, {
+      "name": "野外修炼馆",
+      "imgUrl": "https://shp.qpic.cn/cfwebcap/0/ccf6e0194df9f721ac9138e1035983ce/",
+      "stars": 2,
+      "level": "L3",
+      "type": "刀剑"
+    }, {
+      "name": "龙之路",
+      "imgUrl": "https://shp.qpic.cn/cfwebcap/0/06c14eaa4ce401bb23a663a08d6a3b8f/",
+      "stars": 3,
+      "level": "L3",
+      "type": "刀剑"
+    }, {
+      "name": "秘密机关的威胁",
+      "imgUrl": "https://shp.qpic.cn/cfwebcap/0/66ef3727a3dbed07063e6d33ecc676e8/",
+      "stars": 4,
+      "level": "L2",
+      "type": "黄金"
+    }, {
+      "name": "太空蜿蜒跑道",
+      "imgUrl": "https://shp.qpic.cn/cfwebcap/0/1974a782651f72b01c7160ffe1f7e199/",
+      "stars": 5,
+      "level": "L1",
+      "type": "太空"
+    }]
+  }
+}
