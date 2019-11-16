@@ -109,6 +109,7 @@ export default {
   },
   created () {
     this.getMaps()
+    console.log(process.env.VUE_APP_BASEURL)
   },
   methods: {
     async getMaps () {
