@@ -3,19 +3,11 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        target: 'http://popkartm.club/dist',
+        target: 'http://localhost:8080',
         changeOrigin: true,
         ws: true,
         pathRewrite: {
           '^/api': '/'
-        }
-      },
-      '/bpi': {
-        target: 'http://popkartm.club/dist',
-        changeOrigin: true,
-        ws: true,
-        pathRewrite: {
-          '^/bpi': '/'
         }
       }
     }
