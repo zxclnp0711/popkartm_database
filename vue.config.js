@@ -9,6 +9,14 @@ module.exports = {
         pathRewrite: {
           '^/api': '/'
         }
+      },
+      '/bpi': {
+        target: 'http://popkartm.club/dist',
+        changeOrigin: true,
+        ws: true,
+        pathRewrite: {
+          '^/bpi': '/'
+        }
       }
     }
   }
