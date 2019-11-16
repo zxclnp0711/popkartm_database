@@ -15,7 +15,7 @@ Vue.use(Vant)
 if (process.env.VUE_APP_MODE === 'development') {
   axios.defaults.baseURL = '/api'
 } else if (process.env.VUE_APP_MODE === 'production') {
-  axios.defaults.baseURL = 'http://popkartm.club/dist'
+  axios.defaults.baseURL = '/bpi'
 }
 
 new Vue({
