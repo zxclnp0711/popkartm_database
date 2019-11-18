@@ -1,35 +1,43 @@
 <template>
   <div>
-    <swiper :options="swiperOption" class="swiper-container">
-      <swiper-slide
-        v-for="(item, index) in this.vehicleData.detailImgUrl"
-        :key="index"
-        ><img :src="item" alt=""
-      /></swiper-slide>
-      <div class="swiper-pagination" slot="pagination"></div>
-    </swiper>
+    <div class="return-box">
+      <swiper :options="swiperOption"
+              class="swiper-container">
+        <swiper-slide v-for="(item, index) in this.vehicleData.detailImgUrl"
+                      :key="index"><img :src="item"
+               alt="" /></swiper-slide>
+        <div class="swiper-pagination"
+             slot="pagination"></div>
+      </swiper>
+      <div class="return-button"
+           @click="handleReturn">
+        &lt;
+      </div>
+    </div>
     <div class="details-container">
       <div class="details-name">
         <h2>{{ vehicleData.name }}</h2>
-        <div class="type legend" v-if="this.vehicleData.level == '传说'">
+        <div class="type legend"
+             v-if="this.vehicleData.level == '传说'">
           传说
         </div>
-        <div class="type epic" v-else-if="this.vehicleData.level == '史诗'">
+        <div class="type epic"
+             v-else-if="this.vehicleData.level == '史诗'">
           史诗
         </div>
-        <div class="type rare" v-else-if="this.vehicleData.level == '稀有'">
+        <div class="type rare"
+             v-else-if="this.vehicleData.level == '稀有'">
           稀有
         </div>
-        <div class="type common" v-else>普通</div>
+        <div class="type common"
+             v-else>普通</div>
       </div>
       <hr />
       <div class="details-acquisition">
         <div class="details-name">
           <h2>获得途径</h2>
         </div>
-        <div
-          style="height:50px;line-height:50px;text-align:center;font-size:14px;"
-        >
+        <div style="height:50px;line-height:50px;text-align:center;font-size:14px;">
           {{ vehicleData.acquisition }}
         </div>
       </div>
@@ -38,14 +46,14 @@
         <div class="details-name">
           <h2>技能信息</h2>
         </div>
-        <div
-          v-if="this.vehicleData.skill.length === 0"
-          style="height:50px;line-height:50px;text-align:center;font-size:14px;"
-        >
+        <div v-if="this.vehicleData.skill.length === 0"
+             style="height:50px;line-height:50px;text-align:center;font-size:14px;">
           无技能信息
         </div>
-        <div v-else style="width:100%">
-          <img :src="vehicleData.skill" alt="" />
+        <div v-else
+             style="width:100%">
+          <img :src="vehicleData.skill"
+               alt="" />
         </div>
       </div>
       <hr />
@@ -54,72 +62,72 @@
           <h2>详细数据</h2>
         </div>
         <van-row>
-          <van-col span="4" style="line-height:28px;text-align:right;">
-            <van-tag plain type="primary">漂移</van-tag>
+          <van-col span="4"
+                   style="line-height:28px;text-align:right;">
+            <van-tag plain
+                     type="primary">漂移</van-tag>
           </van-col>
           <van-col span="20">
             <div class="progress">
-              <van-progress
-                :percentage="this.vehicleData.performance[0] / 10"
-                stroke-width="8"
-                :pivot-text="this.vehicleData.performance[0] + ''"
-              />
+              <van-progress :percentage="this.vehicleData.performance[0] / 10"
+                            stroke-width="8"
+                            :pivot-text="this.vehicleData.performance[0] + ''" />
             </div>
           </van-col>
         </van-row>
         <van-row>
-          <van-col span="4" style="line-height:28px;text-align:right;">
-            <van-tag plain type="primary">加速度</van-tag>
+          <van-col span="4"
+                   style="line-height:28px;text-align:right;">
+            <van-tag plain
+                     type="primary">加速度</van-tag>
           </van-col>
           <van-col span="20">
             <div class="progress">
-              <van-progress
-                :percentage="this.vehicleData.performance[1] / 10"
-                stroke-width="8"
-                :pivot-text="this.vehicleData.performance[1]"
-              />
+              <van-progress :percentage="this.vehicleData.performance[1] / 10"
+                            stroke-width="8"
+                            :pivot-text="this.vehicleData.performance[1]" />
             </div>
           </van-col>
         </van-row>
         <van-row>
-          <van-col span="4" style="line-height:28px;text-align:right;">
-            <van-tag plain type="primary">弯道</van-tag>
+          <van-col span="4"
+                   style="line-height:28px;text-align:right;">
+            <van-tag plain
+                     type="primary">弯道</van-tag>
           </van-col>
           <van-col span="20">
             <div class="progress">
-              <van-progress
-                :percentage="this.vehicleData.performance[2] / 10"
-                stroke-width="8"
-                :pivot-text="this.vehicleData.performance[2]"
-              />
+              <van-progress :percentage="this.vehicleData.performance[2] / 10"
+                            stroke-width="8"
+                            :pivot-text="this.vehicleData.performance[2]" />
             </div>
           </van-col>
         </van-row>
         <van-row>
-          <van-col span="4" style="line-height:28px;text-align:right;">
-            <van-tag plain type="primary">加速时间</van-tag>
+          <van-col span="4"
+                   style="line-height:28px;text-align:right;">
+            <van-tag plain
+                     type="primary">加速时间</van-tag>
           </van-col>
           <van-col span="20">
             <div class="progress">
-              <van-progress
-                :percentage="this.vehicleData.performance[3] / 10"
-                stroke-width="8"
-                :pivot-text="this.vehicleData.performance[3]"
-              />
+              <van-progress :percentage="this.vehicleData.performance[3] / 10"
+                            stroke-width="8"
+                            :pivot-text="this.vehicleData.performance[3]" />
             </div>
           </van-col>
         </van-row>
         <van-row>
-          <van-col span="4" style="line-height:28px;text-align:right;">
-            <van-tag plain type="primary">集气速度</van-tag>
+          <van-col span="4"
+                   style="line-height:28px;text-align:right;">
+            <van-tag plain
+                     type="primary">集气速度</van-tag>
           </van-col>
           <van-col span="20">
             <div class="progress">
-              <van-progress
-                :percentage="this.vehicleData.performance[4] / 10"
-                stroke-width="8"
-                :pivot-text="this.vehicleData.performance[4]"
-              />
+              <van-progress :percentage="this.vehicleData.performance[4] / 10"
+                            stroke-width="8"
+                            :pivot-text="this.vehicleData.performance[4]" />
             </div>
           </van-col>
         </van-row>
@@ -151,7 +159,11 @@ export default {
     this.vehicleData = this.$route.params.data
     console.log(this.vehicleData.skill.length)
   },
-  methods: {},
+  methods: {
+    handleReturn () {
+      this.$router.push('/vehicle')
+    }
+  },
   components: {
     swiper,
     swiperSlide
@@ -160,6 +172,25 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.return-box {
+  position: relative;
+  .return-button {
+    color: #ccc;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
 .wrapper /deep/ .swiper-pagination-bullet-active {
   background: #fff !important;
   .wrapper {

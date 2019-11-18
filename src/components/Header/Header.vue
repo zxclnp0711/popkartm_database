@@ -1,46 +1,52 @@
 <template>
   <div class="header">
-    <van-nav-bar
-      :title="`跑跑手游数据库 | ${titleText}`"
-      @click-right="onClickRight"
-    >
-      <div slot="right" @click="showPopup">
-        <van-icon size="20px" name="apps-o" />
+    <van-nav-bar :title="`跑跑手游数据库 | ${titleText}`"
+                 @click-right="onClickRight">
+      <div slot="right"
+           @click="showPopup">
+        <van-icon size="20px"
+                  name="apps-o" />
       </div>
     </van-nav-bar>
     <div style="position:relative;bottom:0">
-      <van-popup v-model="show" position="bottom" style="height:254px;">
-        <van-nav-bar
-          title="菜单"
-          right-text="关闭"
-          @click-right="showPopup"
-          style="position:absolute;top:-46px;height:46px;width:100%;"
-        >
+      <van-popup v-model="show"
+                 position="bottom"
+                 style="height:254px;">
+        <van-nav-bar title="菜单"
+                     right-text="关闭"
+                     @click-right="showPopup"
+                     style="position:absolute;top:-46px;height:46px;width:100%;">
         </van-nav-bar>
         <div style="height:254px;width:100%;overflow-y: scroll;">
-          <van-collapse v-model="activeName" accordion>
-            <div class="menu-box" @click="changeTitle('新闻', '/news')">
+          <van-collapse v-model="activeName"
+                        accordion>
+            <div class="menu-box"
+                 @click="changeTitle('新闻', '/news')">
               新闻
             </div>
-            <div class="menu-box" @click="changeTitle('地图', '/map')">
+            <div class="menu-box"
+                 @click="changeTitle('地图', '/map')">
               地图
             </div>
-            <van-collapse-item title="历史" name="1">
-              <div class="menu-box" @click="changeTitle('大事件', '/bigevent')">
+            <van-collapse-item title="历史"
+                               name="1">
+              <div class="menu-box"
+                   @click="changeTitle('大事件', '/bigevent')">
                 大事件
               </div>
-              <div
-                class="menu-box"
-                @click="changeTitle('车辆年表', '/vehiclechronology')"
-              >
+              <div class="menu-box"
+                   @click="changeTitle('车辆年表', '/vehiclechronology')">
                 车辆年表
               </div>
             </van-collapse-item>
-            <van-collapse-item title="游戏道具" name="2">
-              <div class="menu-box" @click="changeTitle('车辆', '/vehicle')">
+            <van-collapse-item title="游戏道具"
+                               name="2">
+              <div class="menu-box"
+                   @click="changeTitle('车辆', '/vehicle')">
                 车辆
               </div>
-              <div class="menu-box" @click="changeTitle('人物', '/role')">
+              <div class="menu-box"
+                   @click="changeTitle('人物', '/role')">
                 人物
               </div>
             </van-collapse-item>
@@ -67,6 +73,8 @@ export default {
   methods: {
     determineTitle () {
       let value = this.$route.path
+      console.log(value)
+      // console.log(this.titleText)
       switch (value) {
         case '/news':
           this.titleText = '新闻'
@@ -91,7 +99,7 @@ export default {
           break
       }
     },
-    onClickRight () {},
+    onClickRight () { },
     showPopup () {
       this.show = !this.show
     },
