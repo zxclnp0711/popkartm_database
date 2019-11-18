@@ -8,70 +8,150 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3903,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/绯红尖锋.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/绯红尖锋.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/绯红尖锋1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/绯红尖锋2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/绯红尖锋3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "第一期黄金齿轮",
+        "performance": ["751", "772", "802", "743", "835"]
       },
       {
         "name": "NewR8御剑版",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3800,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/NewR8御剑版.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/NewR8御剑版.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/NewR8御剑版1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/NewR8御剑版2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/NewR8御剑版3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "S2赛季通行证120级奖励",
+        "performance": ["758", "746", "806", "770", "720"]
       },
       {
         "name": "赤炎魔怪",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3906,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/赤炎魔怪.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/赤炎魔怪.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/赤炎魔怪1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/赤炎魔怪2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/赤炎魔怪3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "V8奖励30天，第一期种树活动唤醒五颗树奖励永久",
+        "performance": ["783", "794", "809", "762", "758"]
       },
       {
         "name": "光明骑士",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3995,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/光明骑士.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/光明骑士.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/光明骑士1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/光明骑士2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/光明骑士3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "第一期bingo活动最终奖励",
+        "performance": ["808", "804", "796", "752", "835"]
       },
       {
         "name": "黄金敞篷跑车",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3716,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黄金敞篷跑车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黄金敞篷跑车.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/黄金敞篷跑车1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/黄金敞篷跑车2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/黄金敞篷跑车3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "S1赛季通行证120级奖励",
+        "performance": ["777", "737", "769", "702", "731"]
       },
       {
         "name": "飓风",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3788,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/飓风.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/飓风.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/飓风1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/飓风2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/飓风3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "第一期白银齿轮奖励",
+        "performance": ["752", "749", "769", "787", "731"]
       },
       {
         "name": "猎鹰",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3817,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/猎鹰.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/猎鹰.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/猎鹰1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/猎鹰2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/猎鹰3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "S3赛季通行证120级奖励",
+        "performance": ["741", "749", "786", "560", "981"]
       },
       {
         "name": "爆烈",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3480,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/爆烈.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/爆烈.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/爆烈1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/爆烈2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/爆烈3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "S1赛季通行证80级奖励",
+        "performance": ["676", "684", "682", "784", "654"]
       },
       {
         "name": "尖锋",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3398,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/尖锋.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/尖锋.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/尖锋1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/尖锋2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/尖锋3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "第一期神秘宝藏树328阶段奖励",
+        "performance": ["612", "703", "704", "700", "679"]
       },
       {
         "name": "天浪",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3903,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/天浪.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/天浪.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/天浪1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/天浪2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/天浪3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "时间商店获取",
+        "performance": ["759", "774", "806", "564", "1000"]
       },
       {
         "name": "熊猫",
@@ -85,14 +165,30 @@
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3610,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/金猪祈福车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/金猪祈福车.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/金猪祈福车1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/金猪祈福车2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/金猪祈福车3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "第一期欢乐寻宝活动获得",
+        "performance": ["681", "721", "742", "787", "679"]
       },
       {
         "name": "刀锋",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3551,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/刀锋.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/刀锋.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/刀锋1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/刀锋2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/刀锋3.jpg"
+        ],
+        "skill": "",
+        "acquisition": "商店酷比购买",
+        "performance": ["716", "713", "702", "723", "697"]
       },
       {
         "name": "紫色流星",
@@ -113,7 +209,15 @@
         "level": "史诗",
         "type": "道具",
         "quantitative": 3024,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/香蕉车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/香蕉车.png",
+        "detailImgUrl": [
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/香蕉车1.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/香蕉车2.jpg",
+          "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/香蕉车3.jpg"
+        ],
+        "skill": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesSkill/香蕉车技能.png",
+        "acquisition": "2019国庆登录获得",
+        "performance": ["569", "627", "623", "608", "597"]
       },
       {
         "name": "洛迪敞篷跑车",
