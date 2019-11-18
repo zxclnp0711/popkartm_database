@@ -86,6 +86,9 @@ export default {
         case '/role':
           this.titleText = '人物'
           break
+        case '/vehicledetail':
+          this.titleText = '车辆详情'
+          break
       }
     },
     onClickRight () {},

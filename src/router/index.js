@@ -7,6 +7,7 @@ import BigEvent from '../views/BigEvent/BigEvent.vue'
 import VehicleChronology from '../views/VehicleChronology/VehicleChronology.vue'
 import Vehicle from '../views/Vehicle/Vehicle.vue'
 import Role from '../views/Role/Role.vue'
+import VehicleDetail from '../views/Vehicle/VehicleDetail/VehicleDetail.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,10 @@ const routes = [{
     path: '/role',
     name: 'role',
     component: Role
+  }, {
+    path: '/vehicledetail',
+    name: 'vehicledetail',
+    component: VehicleDetail
   }]
 }]
 

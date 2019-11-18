@@ -59,6 +59,7 @@
           class="vehicle-box"
           v-for="(item, index) in this.vehicleList"
           :key="index"
+          @click="handleDetail(item.name)"
         >
           <div class="vehicle-img">
             <img :src="item.imgUrl" />
@@ -82,6 +83,7 @@
         </div>
       </div>
     </div>
+    <!-- <router-view v-show="detailShow"></router-view> -->
   </div>
 </template>
 
@@ -94,6 +96,7 @@ export default {
       typeList: [],
       levelList: [],
       vehicleList: [],
+      vehicleDetail: [],
       oldVehicleList: [],
       typeSelect: 0,
       levelSelect: 0,
@@ -111,7 +114,6 @@ export default {
     async getVehicles () {
       this.isLoading = true
       let { data: res } = await this.$axios.get('/mock/vehicles.json')
-      console.log(res)
       this.typeList = res.data.type
       this.levelList = res.data.level
       this.vehicleList = res.data.vehicles
@@ -164,6 +166,19 @@ export default {
         })
         arr = this.vehicleList
       }
+    },
+    handleDetail (name) {
+      let arr = this.oldVehicleList
+      this.vehicleDetail = arr.filter(item => {
+        return item.name === name
+      })
+      this.vehicleDetail = this.vehicleDetail[0]
+      this.$router.push({
+        name: 'vehicledetail',
+        params: {
+          data: this.vehicleDetail
+        }
+      })
     }
   }
 }
