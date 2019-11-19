@@ -2,79 +2,72 @@
   <div>
     <div class="select">
       <van-cell-group>
-        <van-field
-          v-model="selectParmas.name"
-          placeholder="请输入车辆名"
-          @input="handleName"
-        />
+        <van-field v-model="selectParmas.name"
+                   placeholder="请输入车辆名"
+                   @input="handleName" />
       </van-cell-group>
       <van-collapse v-model="activeNames">
-        <van-collapse-item title="筛选" name="1">
+        <van-collapse-item title="筛选"
+                           name="1">
           <van-row>
             <van-col span="4">
-              <van-tag plain type="primary">类型</van-tag>
+              <van-tag plain
+                       type="primary">类型</van-tag>
             </van-col>
             <van-col span="20">
-              <van-col
-                span="6"
-                v-for="(item, index) in this.typeList"
-                :key="index"
-              >
-                <van-button
-                  type="info"
-                  size="mini"
-                  :disabled="typeSelect == index ? true : false"
-                  :data-index="index"
-                  @click="handleTypeDisable($event)"
-                  >{{ item }}</van-button
-                >
+              <van-col span="6"
+                       v-for="(item, index) in this.typeList"
+                       :key="index">
+                <van-button type="info"
+                            size="mini"
+                            :disabled="typeSelect == index ? true : false"
+                            :data-index="index"
+                            @click="handleTypeDisable($event)">{{ item }}</van-button>
               </van-col>
             </van-col>
           </van-row>
           <van-row>
             <van-col span="4">
-              <van-tag plain type="primary">级别</van-tag>
+              <van-tag plain
+                       type="primary">级别</van-tag>
             </van-col>
             <van-col span="20">
-              <van-col
-                span="6"
-                v-for="(item, index) in this.levelList"
-                :key="index"
-              >
-                <van-button
-                  type="info"
-                  size="mini"
-                  :disabled="levelSelect == index ? true : false"
-                  :data-index="index"
-                  @click="handleLevelDisable($event)"
-                  >{{ item }}</van-button
-                >
+              <van-col span="6"
+                       v-for="(item, index) in this.levelList"
+                       :key="index">
+                <van-button type="info"
+                            size="mini"
+                            :disabled="levelSelect == index ? true : false"
+                            :data-index="index"
+                            @click="handleLevelDisable($event)">{{ item }}</van-button>
               </van-col>
             </van-col>
           </van-row>
         </van-collapse-item>
       </van-collapse>
       <div class="vehicles">
-        <div
-          class="vehicle-box"
-          v-for="(item, index) in this.vehicleList"
-          :key="index"
-          @click="handleDetail(item.name)"
-        >
+        <div class="vehicle-box"
+             v-for="(item, index) in this.vehicleList"
+             :key="index"
+             @click.prevent="handleDetail(item.name)">
           <div class="vehicle-img">
             <img :src="item.imgUrl" />
           </div>
           <div class="vehicle-describe">
-            <div class="describe legend" v-if="item.level == '传说'">
+            <div class="describe legend"
+                 v-if="item.level == '传说'">
               {{ item.level }}/{{ item.type }}
             </div>
-            <div class="describe epic" v-else-if="item.level == '史诗'">
+            <div class="describe epic"
+                 v-else-if="item.level == '史诗'">
               {{ item.level }}/{{ item.type }}
             </div>
-            <div class="describe rare" v-else-if="item.level == '稀有'">
+            <div class="describe rare"
+                 v-else-if="item.level == '稀有'">
               {{ item.level }}/{{ item.type }}
             </div>
-            <div class="describe common" v-else-if="item.level == '普通'">
+            <div class="describe common"
+                 v-else-if="item.level == '普通'">
               {{ item.level }}/{{ item.type }}
             </div>
             <div class="describe">{{ item.quantitative }}</div>
