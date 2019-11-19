@@ -2,86 +2,75 @@
   <div>
     <div class="select">
       <van-collapse v-model="activeNames">
-        <van-collapse-item title="筛选" name="1">
+        <van-collapse-item title="筛选"
+                           name="1">
           <van-row>
             <van-col span="4">
-              <van-tag plain type="primary">主题</van-tag>
+              <van-tag plain
+                       type="primary">主题</van-tag>
             </van-col>
             <van-col span="20">
-              <van-col
-                span="6"
-                v-for="(item, index) in this.typeList"
-                :key="index"
-              >
-                <van-button
-                  type="info"
-                  size="mini"
-                  :disabled="typeSelect == index ? true : false"
-                  :data-index="index"
-                  @click="handleTypeDisable($event)"
-                  >{{ item }}</van-button
-                >
+              <van-col span="6"
+                       v-for="(item, index) in this.typeList"
+                       :key="index">
+                <van-button type="info"
+                            size="mini"
+                            :disabled="typeSelect == index ? true : false"
+                            :data-index="index"
+                            @click="handleTypeDisable($event)">{{ item }}</van-button>
               </van-col>
             </van-col>
           </van-row>
           <van-row>
             <van-col span="4">
-              <van-tag plain type="primary">星级</van-tag>
+              <van-tag plain
+                       type="primary">星级</van-tag>
             </van-col>
             <van-col span="20">
-              <van-col
-                span="6"
-                v-for="(item, index) in this.starsList"
-                :key="index"
-              >
-                <van-button
-                  type="info"
-                  size="mini"
-                  :disabled="starsSelect == index ? true : false"
-                  :data-index="index"
-                  @click="handleStarsDisable($event)"
-                  >{{ item }}</van-button
-                >
+              <van-col span="6"
+                       v-for="(item, index) in this.starsList"
+                       :key="index">
+                <van-button type="info"
+                            size="mini"
+                            :disabled="starsSelect == index ? true : false"
+                            :data-index="index"
+                            @click="handleStarsDisable($event)">{{ item }}</van-button>
               </van-col>
             </van-col>
           </van-row>
           <van-row>
             <van-col span="4">
-              <van-tag plain type="primary">驾照</van-tag>
+              <van-tag plain
+                       type="primary">驾照</van-tag>
             </van-col>
             <van-col span="20">
-              <van-col
-                span="6"
-                v-for="(item, index) in this.levelList"
-                :key="index"
-              >
-                <van-button
-                  type="info"
-                  size="mini"
-                  :disabled="levelSelect == index ? true : false"
-                  :data-index="index"
-                  @click="handleLevelDisable($event)"
-                  >{{ item }}</van-button
-                >
+              <van-col span="6"
+                       v-for="(item, index) in this.levelList"
+                       :key="index">
+                <van-button type="info"
+                            size="mini"
+                            :disabled="levelSelect == index ? true : false"
+                            :data-index="index"
+                            @click="handleLevelDisable($event)">{{ item }}</van-button>
               </van-col>
             </van-col>
           </van-row>
         </van-collapse-item>
       </van-collapse>
       <div class="map-container">
-        <div class="map-box" v-for="(item, index) in this.mapList" :key="index">
+        <div class="map-box"
+             v-for="(item, index) in this.mapList"
+             :key="index">
           <img :src="item.imgUrl" />
           <p>{{ item.name }}</p>
         </div>
       </div>
     </div>
-    <van-loading
-      size="40px"
-      v-show="isLoading"
-      vertical
-      class="loading"
-      color="#fff"
-    ></van-loading>
+    <van-loading size="40px"
+                 v-show="isLoading"
+                 vertical
+                 class="loading"
+                 color="#fff"></van-loading>
   </div>
 </template>
 
@@ -90,7 +79,7 @@ export default {
   name: '',
   data () {
     return {
-      isLoading: false,
+      isLoading: true,
       activeNames: ['1'],
       typeList: [],
       starsList: [],
