@@ -2,13 +2,12 @@
   "data": {
     "level": ["全部", "传说", "史诗", "稀有", "普通"],
     "type": ["全部", "道具", "竞速"],
-    "vehicles": [
-      {
+    "vehicles": [{
         "name": "绯红尖锋",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3903,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/绯红尖锋.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/绯红尖锋.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/绯红尖锋1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/绯红尖锋2.jpg",
@@ -23,7 +22,7 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3800,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/NewR8御剑版.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/NewR8御剑版.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/NewR8御剑版1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/NewR8御剑版2.jpg",
@@ -38,7 +37,7 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3906,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/赤炎魔怪.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/赤炎魔怪.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/赤炎魔怪1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/赤炎魔怪2.jpg",
@@ -53,7 +52,7 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3995,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/光明骑士.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/光明骑士.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/光明骑士1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/光明骑士2.jpg",
@@ -68,7 +67,7 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3716,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黄金敞篷跑车.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黄金敞篷跑车.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/黄金敞篷跑车1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/黄金敞篷跑车2.jpg",
@@ -83,7 +82,7 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3788,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/飓风.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/飓风.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/飓风1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/飓风2.jpg",
@@ -98,7 +97,7 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3817,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/猎鹰.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/猎鹰.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/猎鹰1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/猎鹰2.jpg",
@@ -113,7 +112,7 @@
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3480,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/爆烈.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/爆烈.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/爆烈1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/爆烈2.jpg",
@@ -128,7 +127,7 @@
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3398,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/尖锋.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/尖锋.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/尖锋1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/尖锋2.jpg",
@@ -143,7 +142,7 @@
         "level": "传说",
         "type": "竞速",
         "quantitative": 3903,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/天浪.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/天浪.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/天浪1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/天浪2.jpg",
@@ -158,14 +157,14 @@
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3456,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/熊猫.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/熊猫.jpg"
       },
       {
         "name": "金猪祈福车",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3610,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/金猪祈福车.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/金猪祈福车.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/金猪祈福车1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/金猪祈福车2.jpg",
@@ -180,7 +179,7 @@
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3551,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/刀锋.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/刀锋.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/刀锋1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/刀锋2.jpg",
@@ -195,27 +194,27 @@
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3404,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/紫色流星.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/紫色流星.jpg"
       },
       {
         "name": "月饼配送车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3182,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/月饼配送车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/月饼配送车.jpg"
       },
       {
         "name": "香蕉车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3024,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/香蕉车.png",
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/香蕉车.jpg",
         "detailImgUrl": [
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/香蕉车1.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/香蕉车2.jpg",
           "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesDetail/香蕉车3.jpg"
         ],
-        "skill": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesSkill/香蕉车技能.png",
+        "skill": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/vehiclesSkill/香蕉车技能.jpg",
         "acquisition": "2019国庆登录获得",
         "performance": ["569", "627", "623", "608", "597"]
       },
@@ -224,224 +223,224 @@
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3387,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/洛迪敞篷跑车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/洛迪敞篷跑车.jpg"
       },
       {
         "name": "雷霆",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3474,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/雷霆.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/雷霆.jpg"
       },
       {
         "name": "龟龟车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3157,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/龟龟车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/龟龟车.jpg"
       },
       {
         "name": "银月剑",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3372,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/银月剑.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/银月剑.jpg"
       },
       {
         "name": "威龙",
         "level": "稀有",
         "type": "竞速",
         "quantitative": 2665,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/威龙.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/威龙.jpg"
       },
       {
         "name": "青钢剑",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3367,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/青钢剑.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/青钢剑.jpg"
       },
       {
         "name": "疾风",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3551,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/疾风.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/疾风.jpg"
       },
       {
         "name": "朵朵",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3189,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/朵朵.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/朵朵.jpg"
       },
       {
         "name": "冲锋战士",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3493,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/冲锋战士.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/冲锋战士.jpg"
       },
       {
         "name": "亚特拉斯",
         "level": "史诗",
         "type": "传说",
         "quantitative": 3904,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/亚特拉斯.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/亚特拉斯.jpg"
       },
       {
         "name": "新手练习车",
         "level": "普通",
         "type": "竞速",
         "quantitative": 2250,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/新手练习车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/新手练习车.jpg"
       },
       {
         "name": "蔷薇棉花糖",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3889,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/蔷薇棉花糖.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/蔷薇棉花糖.jpg"
       },
       {
         "name": "飞龙刀",
         "level": "传说",
         "type": "竞速",
         "quantitative": 3840,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/飞龙刀.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/飞龙刀.jpg"
       },
       {
         "name": "独角兽",
         "level": "传说",
         "type": "道具",
         "quantitative": 3480,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/独角兽.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/独角兽.jpg"
       },
       {
         "name": "正义",
         "level": "传说",
         "type": "道具",
         "quantitative": 3615,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/正义.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/正义.jpg"
       },
       {
         "name": "喵咪",
         "level": "传说",
         "type": "道具",
         "quantitative": 3426,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/喵咪.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/喵咪.jpg"
       },
       {
         "name": "甜蜜情侣车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3248,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/甜蜜情侣车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/甜蜜情侣车.jpg"
       },
       {
         "name": "南瓜车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3274,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/南瓜车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/南瓜车.jpg"
       },
       {
         "name": "黄金海盗船",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3216,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黄金海盗船.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黄金海盗船.jpg"
       },
       {
         "name": "黑妞卡丁车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3160,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黑妞卡丁车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/黑妞卡丁车.jpg"
       },
       {
         "name": "创世",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3549,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/创世.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/创世.jpg"
       },
       {
         "name": "宝宝卡丁车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3181,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/宝宝卡丁车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/宝宝卡丁车.jpg"
       },
       {
         "name": "雪球",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3225,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/雪球.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/雪球.jpg"
       },
       {
         "name": "蓝蓝卡丁车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3200,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/蓝蓝卡丁车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/蓝蓝卡丁车.jpg"
       },
       {
         "name": "驯鹿",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3211,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/驯鹿.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/驯鹿.jpg"
       },
       {
         "name": "马桶车",
         "level": "史诗",
         "type": "道具",
         "quantitative": 3157,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/马桶车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/马桶车.jpg"
       },
       {
         "name": "马拉松",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3370,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/马拉松.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/马拉松.jpg"
       },
       {
         "name": "合金",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3353,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/合金.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/合金.jpg"
       },
       {
         "name": "spyder",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3470,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/spyder.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/spyder.jpg"
       },
       {
         "name": "突袭",
         "level": "稀有",
         "type": "竞速",
         "quantitative": 2704,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/突袭.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/突袭.jpg"
       },
       {
         "name": "皮蛋卡丁车",
         "level": "稀有",
         "type": "道具",
         "quantitative": 2670,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/皮蛋卡丁车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/皮蛋卡丁车.jpg"
       },
       {
         "name": "敞篷老爷车",
         "level": "史诗",
         "type": "竞速",
         "quantitative": 3404,
-        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/敞篷老爷车.png"
+        "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/敞篷老爷车.jpg"
       }
     ]
   }
