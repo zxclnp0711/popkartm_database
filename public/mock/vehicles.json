@@ -439,8 +439,8 @@
       },
       {
         "name": "亚特拉斯",
-        "level": "史诗",
-        "type": "传说",
+        "level": "传说",
+        "type": "竞速",
         "quantitative": 3904,
         "imgUrl": "https://raw.githubusercontent.com/zxclnp0711/ImgBed/master/img/vehicles/亚特拉斯.jpg",
         "detailImgUrl": [
