@@ -72,6 +72,8 @@ export default {
   border: 1px solid #ccc !important;
   border-radius: 5px;
   padding-left: 10px;
+  height: 26px;
+  line-height: 26px;
   background-color: #eee;
 }
 .time-box {
