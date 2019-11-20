@@ -184,6 +184,12 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.select /deep/ .van-field__control {
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: #eee;
+}
 .loading {
   position: fixed;
   width: 100vw;

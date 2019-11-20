@@ -1,6 +1,5 @@
 <template>
   <div>
-    新闻
     <div class="title-box">
       官方新闻
       <a href="https://wepop.qq.com/list.shtml?type=news">更多</a>
@@ -51,7 +50,6 @@ export default {
   methods: {
     async getNews () {
       let { data: res } = await this.$axios.get('/mock/news.json')
-      console.log(res)
       this.dataLength = res.data.news.length
       let arr = []
       for (var i = 0; i < res.data.news.length; i += 10) {

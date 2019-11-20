@@ -103,7 +103,6 @@ export default {
     async getMaps () {
       this.isLoading = true
       let { data: res } = await this.$axios.get('/mock/maps.json')
-      console.log(res)
       this.typeList = res.data.type
       this.starsList = res.data.stars
       this.levelList = res.data.level

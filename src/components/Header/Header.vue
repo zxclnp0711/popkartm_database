@@ -114,6 +114,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.header /deep/ .van-nav-bar__title {
+  font-size: 14px !important;
+}
+
 .header /deep/ .van-collapse-item__content {
   padding: 0 16px;
   color: #323233;

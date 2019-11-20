@@ -157,7 +157,6 @@ export default {
   },
   created () {
     this.vehicleData = this.$route.params.data
-    console.log(this.vehicleData.skill.length)
   },
   methods: {
     handleReturn () {
