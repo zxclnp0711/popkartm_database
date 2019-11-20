@@ -1,11 +1,13 @@
 <template>
   <div>
     <div class="select">
-      <van-cell-group>
-        <van-field v-model="selectParmas.name"
-                   placeholder="请输入车辆名"
-                   @input="handleName" />
-      </van-cell-group>
+      <div class="fixed">
+        <van-cell-group>
+          <van-field v-model="selectParmas.name"
+                     placeholder="请输入车辆名"
+                     @input="handleName" />
+        </van-cell-group>
+      </div>
       <van-collapse v-model="activeNames">
         <van-collapse-item title="筛选"
                            name="1">
@@ -184,6 +186,15 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.select {
+  padding-top: 46px;
+}
+.fixed {
+  width: 100%;
+  position: fixed;
+  top: 46px;
+}
+
 .select /deep/ .van-field__control {
   border: 1px solid #ccc !important;
   border-radius: 5px;

@@ -1,11 +1,13 @@
 <template>
   <div>
     <div class="select">
-      <van-cell-group>
-        <van-field v-model="name"
-                   placeholder="请输入车辆名"
-                   @input="handleName" />
-      </van-cell-group>
+      <div class="fixed">
+        <van-cell-group>
+          <van-field v-model="name"
+                     placeholder="请输入车辆名"
+                     @input="handleName" />
+        </van-cell-group>
+      </div>
       <div :class="['time-box',index%2==0?'odd-box':'']"
            v-for="(item,index) in this.timeListData"
            :key="index">
@@ -28,6 +30,7 @@ export default {
   name: '',
   data () {
     return {
+      container: null,
       name: null,
       timeListData: [],
       oldTimeListData: []
@@ -64,6 +67,15 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.select {
+  padding-top: 46px;
+}
+.fixed {
+  width: 100%;
+  position: fixed;
+  top: 46px;
+}
+
 .odd-box {
   background-color: #eee;
 }
