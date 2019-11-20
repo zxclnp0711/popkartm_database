@@ -4,49 +4,49 @@
       <div class="fixed">
         <van-cell-group>
           <van-field v-model="selectParmas.name"
-                     placeholder="请输入车辆名"
-                     @input="handleName" />
+                     placeholder="请输入车辆名" />
         </van-cell-group>
+        <van-collapse v-model="activeNames">
+          <van-collapse-item title="筛选"
+                             name="1">
+            <van-row>
+              <van-col span="4">
+                <van-tag plain
+                         type="primary">类型</van-tag>
+              </van-col>
+              <van-col span="20">
+                <van-col span="6"
+                         v-for="(item, index) in this.typeList"
+                         :key="index">
+                  <van-button type="info"
+                              size="mini"
+                              :disabled="typeSelect == index ? true : false"
+                              :data-index="index"
+                              @click="handleTypeDisable($event)">{{ item }}</van-button>
+                </van-col>
+              </van-col>
+            </van-row>
+            <van-row>
+              <van-col span="4">
+                <van-tag plain
+                         type="primary">级别</van-tag>
+              </van-col>
+              <van-col span="20">
+                <van-col span="6"
+                         v-for="(item, index) in this.levelList"
+                         :key="index">
+                  <van-button type="info"
+                              size="mini"
+                              :disabled="levelSelect == index ? true : false"
+                              :data-index="index"
+                              @click="handleLevelDisable($event)">{{ item }}</van-button>
+                </van-col>
+              </van-col>
+            </van-row>
+          </van-collapse-item>
+        </van-collapse>
       </div>
-      <van-collapse v-model="activeNames">
-        <van-collapse-item title="筛选"
-                           name="1">
-          <van-row>
-            <van-col span="4">
-              <van-tag plain
-                       type="primary">类型</van-tag>
-            </van-col>
-            <van-col span="20">
-              <van-col span="6"
-                       v-for="(item, index) in this.typeList"
-                       :key="index">
-                <van-button type="info"
-                            size="mini"
-                            :disabled="typeSelect == index ? true : false"
-                            :data-index="index"
-                            @click="handleTypeDisable($event)">{{ item }}</van-button>
-              </van-col>
-            </van-col>
-          </van-row>
-          <van-row>
-            <van-col span="4">
-              <van-tag plain
-                       type="primary">级别</van-tag>
-            </van-col>
-            <van-col span="20">
-              <van-col span="6"
-                       v-for="(item, index) in this.levelList"
-                       :key="index">
-                <van-button type="info"
-                            size="mini"
-                            :disabled="levelSelect == index ? true : false"
-                            :data-index="index"
-                            @click="handleLevelDisable($event)">{{ item }}</van-button>
-              </van-col>
-            </van-col>
-          </van-row>
-        </van-collapse-item>
-      </van-collapse>
+
       <div class="vehicles">
         <div class="vehicle-box"
              v-for="(item, index) in this.vehicleList"
@@ -104,6 +104,18 @@ export default {
         level: null,
         type: null,
         name: null
+      }
+    }
+  },
+  watch: {
+    activeNames: function () {
+      console.log(this.activeNames)
+      if (this.activeNames.length > 0) {
+        document.querySelector('.select').className = 'select'
+      } else {
+        setTimeout(() => {
+          document.querySelector('.select').className = 'select select1'
+        }, 400)
       }
     }
   },
@@ -180,14 +192,21 @@ export default {
           data: this.vehicleDetail
         }
       })
+    },
+    handleChange () {
+      console.log(1)
     }
   }
 }
 </script>
 
 <style lang="less" scoped>
+.select1 {
+  padding-top: 90px !important;
+}
+
 .select {
-  padding-top: 46px;
+  padding-top: 213px;
 }
 .fixed {
   width: 100%;
