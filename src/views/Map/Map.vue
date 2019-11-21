@@ -107,9 +107,6 @@ export default {
       this.starsList = res.data.stars
       this.levelList = res.data.level
       this.mapList = res.data.maps
-      // for (var k in this.mapList) {
-      //   this.mapList[k].imgUrl = require(this.mapList[k].imgUrl)
-      // }
       this.oldMapList = this.mapList
       this.isLoading = false
     },
