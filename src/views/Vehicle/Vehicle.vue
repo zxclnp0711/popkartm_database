@@ -4,7 +4,8 @@
       <div class="fixed">
         <van-cell-group>
           <van-field v-model="selectParmas.name"
-                     placeholder="请输入车辆名" />
+                     placeholder="请输入车辆名"
+                     @input="handleName" />
         </van-cell-group>
         <van-collapse v-model="activeNames">
           <van-collapse-item title="筛选"

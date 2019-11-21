@@ -73,8 +73,6 @@ export default {
   methods: {
     determineTitle () {
       let value = this.$route.path
-      console.log(value)
-      // console.log(this.titleText)
       switch (value) {
         case '/news':
           this.titleText = '新闻'

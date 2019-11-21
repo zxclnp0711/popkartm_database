@@ -12,7 +12,7 @@ Vue.use(Vant)
 if (process.env.VUE_APP_MODE === 'development') {
   axios.defaults.baseURL = '/api'
 } else if (process.env.VUE_APP_MODE === 'production') {
-  axios.defaults.baseURL = 'https://zxclnp0711.github.io/popkartm_database/dist/'
+  axios.defaults.baseURL = 'https://raw.githubusercontent.com/zxclnp0711/popkartm_database/master/public'
 }
 
 new Vue({
