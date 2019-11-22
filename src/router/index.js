@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import News from '../views/News/News.vue'
-import Map from '../views/Map/Map.vue'
-import BigEvent from '../views/BigEvent/BigEvent.vue'
-import VehicleChronology from '../views/VehicleChronology/VehicleChronology.vue'
-import Vehicle from '../views/Vehicle/Vehicle.vue'
-import Role from '../views/Role/Role.vue'
-import VehicleDetail from '../views/Vehicle/VehicleDetail/VehicleDetail.vue'
+
+const Home = () => import('../views/Home.vue')
+const News = () => import('../views/News/News.vue')
+const Map = () => import('../views/Map/Map.vue')
+const BigEvent = () => import('../views/BigEvent/BigEvent.vue')
+const VehicleChronology = () => import('../views/VehicleChronology/VehicleChronology.vue')
+const Vehicle = () => import('../views/Vehicle/Vehicle.vue')
+const Role = () => import('../views/Role/Role.vue')
+const VehicleDetail = () => import('../views/Vehicle/VehicleDetail/VehicleDetail.vue')
 
 Vue.use(VueRouter)
 

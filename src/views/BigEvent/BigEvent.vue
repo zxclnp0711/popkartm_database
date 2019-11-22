@@ -3,17 +3,25 @@
     <div class="select">
       <div class="fixed">
         <van-cell-group>
-          <van-field v-model="name"
-                     placeholder="请输入事件"
-                     @input="handleName" />
+          <van-field
+            v-model="name"
+            placeholder="请输入事件"
+            @input="handleName"
+          />
         </van-cell-group>
       </div>
-      <div :class="['time-box',index%2==0?'odd-box':'']"
-           v-for="(item,index) in this.timeListData"
-           :key="index">
-        <div style="color:#888;width:20%;">{{item.time}}</div>
-        <div class="legend"
-             style="width:80%;text-align:right;overflow: hidden;white-space: nowrap;text-overflow: ellipsis">{{item.event}}</div>
+      <div
+        :class="['time-box', index % 2 == 0 ? 'odd-box' : '']"
+        v-for="(item, index) in this.timeListData"
+        :key="index"
+      >
+        <div style="color:#888;width:20%;">{{ item.time }}</div>
+        <div
+          class="legend"
+          style="width:80%;text-align:right;overflow: hidden;white-space: nowrap;text-overflow: ellipsis"
+        >
+          {{ item.event }}
+        </div>
       </div>
     </div>
   </div>
@@ -92,19 +100,15 @@ export default {
 }
 
 .legend {
-  // background-color: rgb(221, 118, 7) !important;
   color: rgb(221, 118, 7) !important;
 }
 .epic {
-  // background-color: rgb(147, 57, 230) !important;
   color: rgb(147, 57, 230) !important;
 }
 .rare {
-  // background-color: rgb(42, 115, 208) !important;
   color: rgb(42, 115, 208) !important;
 }
 .common {
-  // background-color: rgb(124, 145, 158) !important;
   color: rgb(124, 145, 158) !important;
 }
 </style>
